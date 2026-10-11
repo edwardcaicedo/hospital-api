@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/doctores/id
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\": \"\",\r
+
+    \    \"especialidad\": \"\",\r
+
+    \    \"edad\": 0,\r
+
+    \    \"ciudad\": \"\"\r
+
+    }"
+order: 1788827213400

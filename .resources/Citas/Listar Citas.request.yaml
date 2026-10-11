@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/doctores
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \   \"email\": \"hhadmin@gmail.com\",\r
+
+    \    \"password\": \"12345hh\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0did}}"
+order: 3145092452188029

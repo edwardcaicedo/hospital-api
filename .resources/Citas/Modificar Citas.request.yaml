@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/citas/id
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"paciente_id\": 6,\r
+
+    \    \"doctor_id\": 7,\r
+
+    \    \"fecha\": \"2026-11-20\",\r
+
+    \    \"estado\": \"confirmada\"\r
+
+    }"
+order: 1788826867138

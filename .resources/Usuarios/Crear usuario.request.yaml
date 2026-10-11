@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/usuarios
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\": \"\",\r
+
+    \    \"email\": \"\",\r
+
+    \    \"password\": \"\",\r
+
+    \    \"rol\": \"\"\r
+
+    }"
+order: 1788828572563

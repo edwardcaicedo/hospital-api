@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/citas
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"paciente_id\": 7,\r
+
+    \    \"doctor_id\": 6,\r
+
+    \    \"fecha\": \"2027-01-10\",\r
+
+    \    \"estado\": \"pendiente\"\r
+
+    }"
+order: 1788826756684
