@@ -79,7 +79,7 @@ async function usuarioModificado(id, nombre, email ,password, rol){
     return usuarioModificar.rows[0] || null;
 }
 
-async function eliminarUsuario(id){
+async function eliminarUsuario(id){postgret
     const eliminarUsuario = await pool.query(
         `DELETE FROM usuarios
         WHERE id = $1
